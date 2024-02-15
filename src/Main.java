@@ -35,7 +35,7 @@ public class Main {
         if (playerChoice.equals(randomWord)) {
             System.out.println ("randomWord = " + randomWord + " and let's try again");
         }
-        if (playerChoice!="paper" && playerChoice!="rock" && playerChoice!="scissors") {
+        if (!playerChoice.equals("paper") && !playerChoice.equals("rock") && !playerChoice.equals("scissors")) {
             System.out.println ("entered value is incorrect");
         }
     }
