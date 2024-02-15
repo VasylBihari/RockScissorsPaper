@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.print("Enter your choice: ");
         Scanner input = new Scanner (System.in);
         String playerChoice = input.nextLine();
 
