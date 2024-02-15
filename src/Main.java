@@ -15,29 +15,36 @@ public class Main {
 
 
         if (randomWord.equals("scissors")  && playerChoice.equals("paper")){
-            System.out.println ("randomWord = " + randomWord + " and You lost");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("I'm sorry,but You lost");
         }
         if (randomWord.equals("scissors") && playerChoice.equals("rock")){
-            System.out.println ("randomWord = " + randomWord + " and You won");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("Congratulations, You won");
         }
         if (randomWord.equals("paper") && playerChoice.equals("rock")){
-            System.out.println ("randomWord = " + randomWord + " and You lost");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("I'm sorry,but You lost");
         }
         if (randomWord.equals("paper") && playerChoice.equals("scissors")){
-            System.out.println ("randomWord = " + randomWord +  " and You won");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("Congratulations, You won");
         }
         if (randomWord.equals("rock") && playerChoice.equals("scissors")){
-            System.out.println ("randomWord = " + randomWord + " and You lost");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("I'm sorry,but You lost");
         }
         if (playerChoice.equals("paper") && randomWord.equals("rock")){
-            System.out.println ("randomWord = " + randomWord + " and You won");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("Congratulations, You won");
         }
         if (playerChoice.equals(randomWord)) {
-            System.out.println ("randomWord = " + randomWord + " and let's try again");
+            System.out.println ("randomWord = " + randomWord);
+            System.out.println ("We have the same, let's try again");
         }
         if (!playerChoice.equals("paper") && !playerChoice.equals("rock") && !playerChoice.equals("scissors")) {
-            System.out.println ("entered value is incorrect");
+            System.out.println ("The entered value is incorrect");
         }
+      input.close();
     }
 }
-
