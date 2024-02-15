@@ -1,1 +1,1 @@
-Everyone knows the simple game "RockScissorsPaper"
+Simple game "Rock_Scissors_Paper"
